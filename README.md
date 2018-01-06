@@ -1,5 +1,5 @@
-# moveit-pkgs
+# moveit_object_handling
 
-My collection of packages related to MoveIt!
+Generates MoveIt! *moveit_msgs/CollisionObject* messages from arriving *object_msgs/Object* messages.
 
-See also [the wiki page](https://github.com/JenniferBuehler/moveit-pkgs/wiki) for more information.
+See also [the wiki](https://github.com/JenniferBuehler/moveit-pkgs/wiki) for more information
