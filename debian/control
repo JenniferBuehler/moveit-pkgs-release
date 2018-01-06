@@ -1,0 +1,13 @@
+Source: ros-indigo-moveit-planning-helper
+Section: misc
+Priority: extra
+Maintainer: Jennifer Buehler <jennifer.e.buehler@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-convenience-ros-functions, ros-indigo-eigen-conversions, ros-indigo-manipulation-msgs, ros-indigo-moveit-ros-planning-interface, ros-indigo-roscpp, ros-indigo-shape-tools, ros-indigo-tf, ros-indigo-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-moveit-planning-helper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-convenience-ros-functions, ros-indigo-eigen-conversions, ros-indigo-manipulation-msgs, ros-indigo-moveit-ros-planning-interface, ros-indigo-roscpp, ros-indigo-shape-tools, ros-indigo-tf, ros-indigo-trajectory-msgs
+Description: A test package to plan and execute a joint trajectory.
+ This package is only in here for testing during development. At some stage, this will move to a new package with all motion-plan related functionalities, e.g. joint_trajectory_planning and joint_trajectory_execution.
