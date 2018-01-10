@@ -1,5 +1,5 @@
-# moveit_controller_multidof
+# moveit-pkgs
 
-This package provides a MoveIt! plugin to execute joint trajectories.
+My collection of packages related to MoveIt!
 
-See also [the wiki](https://github.com/JenniferBuehler/moveit-pkgs/wiki/moveit_controller_multidof) for more information.
+See also [the wiki page](https://github.com/JenniferBuehler/moveit-pkgs/wiki) for more information.
